@@ -11,7 +11,7 @@
 @media (max-width: 991px) {
   .navbar-collapse {
     background-color: #614f36; /* dark dropdown bg */
-    margin-left: 410px;
+    margin-left: 300px;
   }
 
   .nav-link img {
