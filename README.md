@@ -1,3 +1,7 @@
+This is my first website that made with moveable features of Javascript using bootstrap inbuilt classes and elements.This is Frontend project of e_commerce website(Mens Wear Showroom named Jeans Point).
+Project is deployed on Vercel App.
+You can visit here to see full project view:- https://jeans-point-website.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
