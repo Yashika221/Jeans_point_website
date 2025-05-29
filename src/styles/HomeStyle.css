@@ -1,0 +1,134 @@
+.container{
+  background-image: url("../images/bg_img.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  width: 100vw;
+  height: 100vh;
+  border:2px solid #7d5b36;
+
+}
+h1{
+    padding: 50px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 140px;
+  color: rgb(128, 107, 88);
+  
+}
+p{
+  text-align: center;
+  font-weight: 50;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 26px;
+  color: rgb(136, 121, 103);
+}
+.logo{
+  height: 50px;
+  width:50px;
+  
+}
+.btn{
+    color:rgb(123, 108, 59);
+    background-color:rgb(237, 234, 213);
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 480px;
+    font-weight: bold;
+    font-size: 23px;
+    height: 60px;
+    width: 180px;
+    text-decoration: none;
+
+}
+.btn :hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.contact{
+    color: #75623b; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+}
+.cardHeading{
+    color: #7d5b36; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 300;
+}
+.cardcolour{
+    color: #7d5b36; 
+    background-color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 200;
+    border: 4px solid #7d5b36;
+}
+.auto-scroll-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.auto-scroll-content {
+  animation: scrollItems 45s linear infinite;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  height: auto;
+}
+
+@keyframes scrollItems {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@media (max-width: 768px) {
+  .auto-scroll-content {
+  animation: scrollItems 100s linear ;
+  display: flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  height: auto;
+  }
+}
+@media (max-width:768px){
+    .btn{
+        margin-left: 140px;
+        font-weight: bold;
+        font-size: 15px;
+        height: 30px;
+        width: 150px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    h1{
+        font-size: 80px;
+        text-align: center;
+        justify-content: center;
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .contact{
+        font-size: 60px;
+    }
+    .cardHeading{
+        font-size: 60px;
+    }
+}
+    
